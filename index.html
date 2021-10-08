@@ -17,8 +17,9 @@
     gptadslots.push(googletag.defineSlot('/6355419/travel', [[728,90]], 'div-gpt-ad-3720665-1')
                              .addService(googletag.pubads()));
 
-        
-googletag.pubads().setTargeting('url', url);
+   
+googletag.pubads().setTargeting('url', url)
+   .setTargeting('Test', ['refresh']);
     googletag.enableServices();
   });
 </script>
